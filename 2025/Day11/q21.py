@@ -10,12 +10,7 @@ with open("input.txt", "r") as f:
         dic[k] = [x.strip() for x in v.split()]
 
 
-# for k in dic:
-#     print(k,dic[k])
-
-# Dfs from key=you to key=out
 res = []
-
 
 def dfs(key, path):
     if key == "out":
@@ -26,10 +21,7 @@ def dfs(key, path):
 
 
 path = dfs("you", [])
-# print(path)
-# print("dfs done")
-# print(res)
-print(len(res))
+ans = len(res)
 
 end_time = time()
 print("Time taken:", end_time - t0)
