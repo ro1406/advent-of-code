@@ -11,7 +11,7 @@ import numpy as np
 # I still implemented the full backtracking solution for fun
 # (and because the above doesnt work for all cases and it doesnt work in the examples either)
 
-RUN_BACKTRACKING = False
+RUN_BACKTRACKING = True
 VERBOSE = False
 
 
@@ -76,6 +76,7 @@ print(f"Time taken: {end_time-t0} seconds")
 # BACKTRACKING SOLUTION:
 if RUN_BACKTRACKING:
     t0 = time()
+    ans = 0
     import numpy as np
 
     def rot90(matrix):
