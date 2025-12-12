@@ -4,15 +4,15 @@ This repository contains my solutions to the [Advent of Code](https://adventofco
 
 ## 📊 Progress
 
+### 2025
+**⭐ 24/24 stars** - All challenges completed!
+
+Successfully solved all 12 days (24 stars total) of the 2025 Advent of Code challenge. Each day consists of two parts as in 2024.
+
 ### 2024
 **⭐ 50/50 stars** - All challenges completed!
 
-Successfully solved all 25 days (50 stars total) of the 2024 Advent of Code challenge. Each day consists of two parts, with the second part typically building upon the first.
-
-### 2025
-**⭐ On track for 24/24 stars**
-
-Currently working through the 2025 challenges. The 2025 edition features 12 days of puzzles (24 stars total).
+Successfully solved all 25 days (50 stars total) of the 2024 Advent of Code challenge. Each day consists of two parts, with the second part building upon the first.
 
 ## 📁 Repository Structure
 
