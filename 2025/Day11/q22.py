@@ -50,7 +50,7 @@ print('is_reachable("fft", "out"):', is_reachable("fft", "out"))
 print('is_reachable("svr", "fft"):', is_reachable("svr", "fft"))
 print('is_reachable("fft", "dac"):', is_reachable("fft", "dac"))
 print('is_reachable("dac", "out"):', is_reachable("dac", "out"))
-print('-'*100)
+print("-" * 100)
 
 # Idea: find paths from svr-dac then dac-fft then fft-out and multiply the number of paths
 #      repeat for svr-fft-dac-out and add the number of paths found in each case
